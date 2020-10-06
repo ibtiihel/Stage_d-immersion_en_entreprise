@@ -1,0 +1,34 @@
+version: '3.4'
+
+networks:
+  spring-cloud-network:
+      driver: bridge
+
+services:
+  
+  springbootapp:
+    build: .
+    container_name: springbootapp-container
+    networks:
+      - spring-cloud-network
+    ports:
+      - "8080:8080"
+    links:
+        - dbpostgresql:dbpostgresql
+    depends_on:
+      - dbpostgresql
+
+  dbpostgresql :
+    restart: always
+    image: postgres:9.5
+    container_name: postgres-container
+    networks:
+      - spring-cloud-network
+    ports:
+      - "6001:5432"
+    environment:
+      - POSTGRES_USER=sam
+      - POSTGRES_PASSWORD=sam
+      - POSTGRES_DB=db1
+    volumes:
+      - ./src/main/resources/schema.sql:/docker-entrypoint-initdb.d/1-schema.sql

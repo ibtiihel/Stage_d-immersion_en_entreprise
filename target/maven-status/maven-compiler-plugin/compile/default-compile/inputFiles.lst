@@ -1,0 +1,17 @@
+/home/ibtihel/Desktop/stage-dete-develop/src/main/java/tn/talan/example/Helper/ApplicationConfig.java
+/home/ibtihel/Desktop/stage-dete-develop/src/main/java/tn/talan/example/CORS/CORSFilter.java
+/home/ibtihel/Desktop/stage-dete-develop/src/main/java/tn/talan/example/Helper/ModelMapperConverter.java
+/home/ibtihel/Desktop/stage-dete-develop/src/main/java/tn/talan/example/Entity/Post.java
+/home/ibtihel/Desktop/stage-dete-develop/src/main/java/tn/talan/example/Service/categoryService.java
+/home/ibtihel/Desktop/stage-dete-develop/src/main/java/tn/talan/example/Entity/Category.java
+/home/ibtihel/Desktop/stage-dete-develop/src/main/java/tn/talan/example/Repository/postRepository.java
+/home/ibtihel/Desktop/stage-dete-develop/src/main/java/tn/talan/example/SpringV1Application.java
+/home/ibtihel/Desktop/stage-dete-develop/src/main/java/tn/talan/example/Service/postService.java
+/home/ibtihel/Desktop/stage-dete-develop/src/main/java/tn/talan/example/Dto/CategoryDto.java
+/home/ibtihel/Desktop/stage-dete-develop/src/main/java/tn/talan/example/ServiceImpl/categoryServiceImpl.java
+/home/ibtihel/Desktop/stage-dete-develop/src/main/java/tn/talan/example/Controller/postController.java
+/home/ibtihel/Desktop/stage-dete-develop/src/main/java/tn/talan/example/config/JpaConfig.java
+/home/ibtihel/Desktop/stage-dete-develop/src/main/java/tn/talan/example/Repository/categoryRepository.java
+/home/ibtihel/Desktop/stage-dete-develop/src/main/java/tn/talan/example/ServiceImpl/PostServiceImpl.java
+/home/ibtihel/Desktop/stage-dete-develop/src/main/java/tn/talan/example/Controller/categoryController.java
+/home/ibtihel/Desktop/stage-dete-develop/src/main/java/tn/talan/example/Dto/PostDto.java

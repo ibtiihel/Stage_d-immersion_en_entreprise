@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: dep
+  labels:
+    app: dep
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: dep
+  template:
+    metadata:
+      labels:
+        app: dep
+    spec:
+      containers:
+        - name: springbootapp-container
+          image: stagedetedevelop_springbootapp
+          ports:
+            - containerPort: 8080
+
